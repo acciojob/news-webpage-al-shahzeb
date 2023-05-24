@@ -19,7 +19,7 @@
     color: white;
 }
 
-.picture-div img{
+.pictorial-news-section img{
     height: 130px;
     width: 150px;
 }
@@ -35,18 +35,26 @@
     text-align: center;
     border: 1px solid white;
     border-radius: 15px;
-    padding: 20px;
+    padding: 10px;
     background-color: white;
 }
 
 
-.main-article-div{
+.main-article-section{
    flex-basis: 500px;
    padding: 20px;
 }
 
-.picture-div{
+.pictorial-news-section{
    flex-direction: column;
    text-align: center;
    gap: 10px;
+}
+.latest-news-section{
+	width:50%;
+	text-align:center;
+}
+.latest-news-section ul{
+	text-align:left;
+	
 }
